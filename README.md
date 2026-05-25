@@ -13,9 +13,9 @@ The repository is intended to support the consultation, replication, and extensi
 ├── 03_synthetic_data_generation.ipynb
 ├── 04_lstm_synthetic_pretraining.ipynb
 ├── 05_lstm_fine_tuning.ipynb
+├── README.md
 ├── base_datos.csv
-├── data_reshaped.npy
-└── README.md
+└── data_reshaped.npy
 ```
 
 ## Files Description
