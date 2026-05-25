@@ -79,36 +79,10 @@ keras
 
 Depending on the local environment, additional standard scientific-computing libraries may be required.
 
-## Suggested Execution Order
-
-To replicate the workflow, run the notebooks in the following order:
-
-```text
-01_dataset_construction.ipynb
-02_real_data_training_and_model_selection.ipynb
-03_synthetic_data_generation.ipynb
-04_lstm_synthetic_pretraining.ipynb
-05_lstm_fine_tuning.ipynb
-```
-
-The file `base_datos.csv` is used for the real-data experiments, while `data_reshaped.npy` is used for the synthetic pretraining stage.
-
-## Possible Extensions
-
-Future work may extend this project by:
-
-- expanding the real dataset in terms of countries and time coverage;
-- incorporating financial variables such as credit, asset prices, liquidity, interest rates, and other financial-sector indicators;
-- exploring alternative parametrizations of the potential function;
-- modifying the simulation parameters used to generate synthetic data;
-- evaluating different lookback window sizes and prediction horizons;
-- testing other catastrophe-theory structures, such as the swallowtail catastrophe;
-- comparing LSTM models with other deep learning architectures.
-
 ## Disclaimer
 
 This repository is intended for academic and research purposes. The models implemented here should not be interpreted as a definitive early-warning system or as a standalone tool for economic policy decisions.
 
 ## Author
 
-Antonio T
+Antonio Trávez
