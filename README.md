@@ -2,7 +2,7 @@
 
 This repository contains the code and data used in the research project **Deep Learning and Catastrophe Theory for GDP Prediction**. The study evaluates the predictive performance of Long Short-Term Memory (LSTM) networks for modeling the trajectory of GDP at constant 2015 prices in U.S. dollars. In addition to models trained exclusively on real macroeconomic data, the project explores a synthetic pretraining strategy based on time series generated from a potential function inspired by the cusp catastrophe model.
 
-The repository is intended to support the consultation, replication, and extension of the computational procedures implemented in the study.
+The repository is intended to support the consultation, use, and understanding of the computational procedures implemented in the study, as well as to provide a basis for future research extensions.
 
 ## Repository Structure
 
@@ -81,7 +81,9 @@ Depending on the local environment, additional standard scientific-computing lib
 
 ## Disclaimer
 
-This repository is intended for academic and research purposes. The models implemented here should not be interpreted as a definitive early-warning system or as a standalone tool for economic policy decisions.
+The implemented models should not be interpreted as a definitive early-warning system or as a basis for economic policy decisions.
+
+Due to the stochastic nature of neural network training some numerical results may vary across executions or computational environments. Therefore, results may differ from one run to another.
 
 ## Author
 
